@@ -8,7 +8,7 @@ public class RollTheDieGame {
         int totalRoll = 5;
         int boardSpace = 20;
         int space=0;
-        
+
         for (int i=0; i<totalRoll; i++) {
             int die = random.nextInt(6) + 1;
             space = space + die;
